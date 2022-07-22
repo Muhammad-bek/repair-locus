@@ -1,0 +1,449 @@
+/* poppins-regular - latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local(''),
+         url('../fonts/poppins-v20-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/poppins-v20-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* poppins-500 - latin */
+  @font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: local(''),
+         url('../fonts/poppins-v20-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/poppins-v20-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* poppins-700 - latin */
+  @font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local(''),
+         url('../fonts/poppins-v20-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/poppins-v20-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* poppins-800 - latin */
+  @font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-display: swap;
+    src: local(''),
+         url('../fonts/poppins-v20-latin-800.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/poppins-v20-latin-800.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    width: 1612px;
+    margin: 0 auto;
+    font-family: 'Poppins';
+}
+
+.hidden {
+    margin: -1px;
+    padding: 0;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    clip: rect(0, 0, 0, 0);
+    position: absolute;
+}
+
+.main-logo {
+    vertical-align: bottom;
+    margin-right: 14px;
+}
+
+.locus {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 35px;
+    text-decoration: none;
+    color: #58A9A5;
+    width: 105px;
+    margin-right: 309px;
+}
+
+.navbar {
+    display: inline-block;
+    margin-top: 99px;
+}
+
+.first-ul {
+    display: flex;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.first-li {
+    margin-right: 85px;
+}
+
+.main-link {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 38px;
+    color: #404242;
+}
+
+.main-link:hover{
+    text-decoration: underline;
+    color: #58A9A5;
+}
+
+.sign-up-link {
+   text-decoration: none;
+   background-color: #58A9A5;
+   border-radius: 15px;
+   color: #FFFFFF;
+    font-style: normal;
+    font-size: 25px;
+    padding: 21px 87px 21px 88px;
+    margin-left: 120px;
+}
+
+.intro-flex {
+    display: flex;
+    margin-top: 170px;
+}
+
+.intro-h3 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 70px;
+}
+
+.intro-p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    margin-bottom: 70px;
+}
+
+.intro-nav {
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #58A9A5;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    border-radius: 20px 20px 20px 0px;
+    padding: 21px 83px 21px 90px;
+}
+
+.intro-img {
+    margin-left: 40px;
+}
+
+.section-h3 {
+    text-align: center;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 70px;
+    color: #1C2323;
+    margin: 0px;
+    margin-top: 120px;
+    margin-bottom: 20px;
+}
+
+.section-p {
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    color: #404242;
+    margin-bottom: 71px;
+}
+
+.room {
+    width: 1063px;
+    height: 350px;
+    position: absolute;
+}
+
+.play-icon {
+    position: relative;
+    top: 200px;
+    left: 1010px;
+    background-color: #fff;
+    border-radius: 65px;
+    padding: 29px 30px 29px 43px;
+    z-index: 1;
+}
+
+.second-furniture {
+    position: relative;
+    background-color: #CCF0E6;
+    width: 549px;
+    height: 350px;
+    margin-left: auto;
+    border-radius: 0px 10px 10px 0px;
+    bottom: 104px;
+}
+
+.about-furniture{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #486958;
+    padding-left: 115px;
+    padding-top: 50px ;
+    padding-bottom: 41px;
+    margin: 0px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #486958;
+    padding-left: 115px;
+    letter-spacing: 3px;
+}
+
+.second-wrapper {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 145px;
+}
+
+.about-sofa {
+    margin: 0px 0px 50px 0px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #1C2323;
+}
+
+.quality-sofa {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    margin: 0px;
+    color: #486958;
+}
+
+.our-project {
+    text-align: center;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 70px;
+    color: #1C2323;
+    margin: 0px;
+    margin-top: 120px;
+    margin-bottom: 20px;
+}
+
+.about-our-project {
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    color: #404242;
+    margin-bottom: 51px;
+}
+
+.line {
+    border: 2.5px solid #58A9A5;
+    width: 135px;
+    height: 0px;
+    background-color: #58A9A5;
+}
+
+.row-column {
+    display: flex;
+    padding: 0px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.rooms-projects {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #58A9A5;
+    margin: 0px;
+}
+
+.rooms-paragraphs {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #486958;
+}
+
+.small-column {
+    display: flex;
+    flex-direction: column;
+    margin-top: 94px;
+}
+
+.small-column:nth-child(2n) {
+    flex-direction: column-reverse;
+}
+
+.workspace {
+    margin-bottom: 35px;
+}
+
+.second-ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    align-items: center;
+}
+
+.second-li {
+    list-style: none;
+}
+
+.third-ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0px;
+    margin: 0px 135px 0px 135px;
+}
+
+.about-black-girl {
+    display: inline-block;
+    vertical-align: top;
+    width: 990px;
+    background-color: #CCF0E6;
+    height: 700px;
+}
+
+.girl-project {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 65px;
+    color: #58A9A5;
+    margin: 65px 0px 0px 0px;
+}
+
+.about-girl-project {
+    color: #58A9A5;
+    font-size: 30px;
+    font-weight: 500;
+    margin: 0px;
+}
+
+.copied-by-someone {
+    background: url(../img/Qoshtirnoq.svg) no-repeat top left; 
+    padding: 55px 0px 50px 0px;
+    
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    color: #486958;
+    display: block;
+    padding-left: 35px;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.name-of-someone {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    color: #58A9A5;
+    margin: 0px 0px 0px 135px;
+}
+
+.contact-us{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 70px;
+    margin: 0px;
+    color: #1C2323;
+}
+
+.answer-for-questions {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    color:#486958;
+}
+
+.footer-div {
+    width: 500px;
+    display: inline-block;
+    margin-top: 240px;
+}
+
+.last-line {
+    border: 2.5px solid #58A9A5;
+    width: 135px;
+    height: 0px;
+    background-color: #58A9A5;
+    margin: 0px;
+    margin-top: 5px;
+}
+
+.input {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    border-top: none;
+    border-bottom: 1px solid grey;
+    color: #486958;
+    width: 1000px;
+    padding: 40px 0px 20px 0px;
+    font-size: 20px;
+    margin: 0px 50px 0px 50px;
+}
+
+.input:focus {
+    outline: none;
+    color: #58A9A5;
+}
+
+.different-input {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    color: grey;
+    width: 1000px;
+    padding: 40px 0px 20px 0px;
+    font-size: 20px;
+    margin: 0px 50px 0px 50px;
+}
+
+.different-input:focus {
+    outline: none;
+    color: #58A9A5;
+}
+
+.info {
+    margin-top: 240px;
+    border: 1px solid #486958;
+    display: inline-block;
+    width: 1100px;
+    height: 360px;
+}
+
+.input-button {
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #58A9A5;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    border-radius: 20px 20px 20px 0px;
+    padding: 18px 70px 18px 70px;
+    border: 1px solid #58A9A5;
+    margin-left: 780px;
+}
